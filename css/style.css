@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/class_7/img/bg1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+.regestration_form{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px 0px 030px 30px;
+    border-radius: 10px;
+
+}
+.regestration_form label{
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 0;
+}
+.regestration_form input{
+    font-size: 30px;
+    background: transparent;
+    border: 1px solid rgb(238, 169, 20);
+    border-radius: 5px;
+    color: cornsilk;
+    
+}
+.regestration_form .gender {
+    padding: 10px 0;
+}
+.regestration_form .gender label{
+    display: inline-block;
+}
+.regestration_form .gender input{
+    width: 15px;
+    height: 15px;
+}
+.regestration_form .select{
+    padding: 20px 0;
+}
+.regestration_form .select select{
+    font-size: 20px;
+}
+.regestration_form input[type="submit"], .regestration_form input[type="reset"] {
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px solid red;
+}
+.regestration_form p{
+    color: #fff;
+}
+.regestration_form p a{
+    color: red;
+}
